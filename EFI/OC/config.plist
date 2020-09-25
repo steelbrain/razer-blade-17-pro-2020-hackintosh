@@ -531,7 +531,7 @@
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>EnablePassword</key>
 			<false/>
 		</dict>

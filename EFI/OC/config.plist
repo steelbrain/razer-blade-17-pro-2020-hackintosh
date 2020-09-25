@@ -603,7 +603,7 @@
 			<key>MLB</key>
 			<string>GenSMBIOS</string>
 			<key>ROM</key>
-			<string>GenSMBIOS</string>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>

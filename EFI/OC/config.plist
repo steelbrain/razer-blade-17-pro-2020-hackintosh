@@ -331,66 +331,6 @@
 		</dict>
 		<key>Patch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>USB Port Limit Patch 1 PMHeart/DalianSky</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string>19.0.0</string>
-				<key>MaxKernel</key>
-				<string>19.9.0</string>
-				<key>Find</key>
-				<data>g/sPDw==</data>
-				<key>Replace</key>
-				<data>g/s/Dw==</data>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IOUSBHostFamily</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Base</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB Port Limit Patch 2 PMHeart/DalianSky</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string>19.0.0</string>
-				<key>MaxKernel</key>
-				<string>19.9.0</string>
-				<key>Find</key>
-				<data>g/kPDw==</data>
-				<key>Replace</key>
-				<data>g/k/Dw==</data>
-				<key>Identifier</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Base</key>
-				<string></string>
-			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -423,7 +363,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<false/>
+			<true/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 		</dict>
@@ -762,7 +702,7 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
-			<false/>
+			<true/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>TscSyncTimeout</key>

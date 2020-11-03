@@ -1,6 +1,6 @@
 # Razer Blade 17 Pro 2020 Hackintosh
 
-A work in progress of getting macOS Catalina to run on a Razer Blade 17 Pro 2020 using OpenCore 0.6.1.
+A work in progress of getting macOS Catalina to run on a Razer Blade 17 Pro 2020 using OpenCore 0.6.3
 
 ## Introduction
 The EFI included in this repository is a work in progress. It's enough to be able to get you through install and give you a non-GPU acceleration machine to work with. The touchpad doesn't yet work so you'll need to plug a USB Mouse for installation.

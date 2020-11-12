@@ -11,10 +11,10 @@ If you would like to get started with creating a Hackintosh on your Razer Blade 
 
 | Key                    | Value                                                        |
 | ---------------------- | ------------------------------------------------------------ |
-| CPU                    | Intel Core i7 10750H                                         |
+| CPU                    | Intel Core i7 10875h                                         |
 | GPU                    | Intel UHD Graphics 630                                       |
 | Screen                 | 17" UHD 120hz Touch Display                                  |
-| Camera                 | HD webcam (720p)                                            |
+| Camera                 | HD webcam (720p)                                             |
 | RAM                    | 16 DDR4 2,933MHz (2x8GB)                                     |
 | Internal SSD           | 512GB M.2 PCIe SSD                                           |
 | Audio                  | Unknown                                                      |

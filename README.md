@@ -1,6 +1,6 @@
 # Razer Blade 17 Pro 2020 Hackintosh
 
-A work in progress of getting macOS Catalina to run on a Razer Blade 17 Pro 2020 using OpenCore 0.6.3
+Configuration for getting macOS Catalina to run on a Razer Blade 17 Pro 2020 using OpenCore 0.6.4-dev
 
 ## Introduction
 The EFI included in this repository is a work in progress. It's enough to be able to get you through install and give you a non-GPU acceleration machine to work with. The touchpad doesn't yet work so you'll need to plug a USB Mouse for installation.
@@ -24,32 +24,23 @@ Quick Note: My serial number, MLB, and UUID have been removed from the config.pl
 
 ## What works
 
-- It boots
-- Keyboard
+- iGPU
+- Audio
+- Sleep
+- Battery
+- Touchpad
+- Touchscreen
 - USB Ports
-
-## What Doesn't Work
-
-- iGPU acceleration (remove `-igfxvesa` from the cofig if you wanna have a go at it)
-- Trackpad and Touchscreen
-- Audio & Brightness Control
-
-## What I need help with
-
-Any help with the iGPU acceleration would be much appreciated. From my fiddling so far, I think we need to patch the appropriate Framebuffer patches for connectors.
-Also there's a black line at the bottom of the display, I have no idea what's causing it but maybe it'll be fixed when iGPU is fixed?
-
-<img src="https://user-images.githubusercontent.com/4278113/93589138-d4115280-f9c5-11ea-872f-fd7c7027fb28.jpg" />
-
-Please open up a pull request or issue if you have any fixes to contribute.
+- CPU Freq
+- Intel bluetooth / wifi (using HeliPort.app)
 
 ## Credits:
 
+- [hackintosh.expert][3] - You should contact them to make you the Hackintosh config, highly recommended!
 - Apple for their OS
 - OpenCore Team
 - CorpNewt
-- @robotblox for his [XPS 15 9500 config][3]
 
 [1]:https://dortania.github.io/OpenCore-Install-Guide/
 [2]:https://github.com/corpnewt/GenSMBIOS
-[3]:https://github.com/robotblox/XPS-15-9500-Catalina-10.15.6
+[3]:https://hackintosh.expert/

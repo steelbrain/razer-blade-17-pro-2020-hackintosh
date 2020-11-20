@@ -26,10 +26,6 @@ Quick Note: My serial number, MLB, and UUID have been removed from the config.pl
 Razer has locked the BIOS tight this time, so you'll need a hardware programmer to unlock DVMT Options this time around. Follow the instructions on https://git.io/JkuFs for how to mod your BIOS for this.
 After modding the BIOS, change DVMT Pre Alloc to 64MB, DVMT Max Alloc to MAX. Also if you've selected "Dedicated GPU Only" Graphics mode, you'll need to put it back in "NVIDIA (R) Optimus" along with Disabling Secure boot.
 
-## Post Install
-
-After installation, you should install the HeliPort.app from OpenIntelWireless to be able to use wifi on your Razer Blade.
-
 ## What works
 
 - iGPU
@@ -40,7 +36,7 @@ After installation, you should install the HeliPort.app from OpenIntelWireless t
 - Touchscreen
 - USB Ports
 - CPU Freq
-- Intel bluetooth / wifi (using HeliPort.app)
+- Intel bluetooth / Wifi
 
 ## Credits:
 

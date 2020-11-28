@@ -12,11 +12,11 @@ If you would like to get started with creating a Hackintosh on your Razer Blade 
 | ---------------------- | ------------------------------------------------------------ |
 | CPU                    | Intel Core i7 10875h                                         |
 | GPU                    | Intel UHD Graphics 630                                       |
-| Screen                 | 17" UHD 120hz Touch Display                                  |
+| Screen                 | 17" 4K/UHD 120hz Touch Display                               |
 | Camera                 | HD webcam (720p)                                             |
 | RAM                    | 16 DDR4 2,933MHz (2x8GB)                                     |
 | Internal SSD           | 512GB M.2 PCIe SSD                                           |
-| Audio                  | Unknown                                                      |
+| Audio                  | ALC298                                                       |
 | Wireless               | Intel Wireless-AX201                                         |
 
 Quick Note: My serial number, MLB, and UUID have been removed from the config.plist. Please use CorpNewt's [GenSMBIOS][2] to create your own
@@ -36,7 +36,7 @@ After modding the BIOS, change DVMT Pre Alloc to 64MB, DVMT Max Alloc to MAX. Al
 - Touchscreen
 - USB Ports
 - CPU Freq
-- Intel bluetooth / Wifi
+- Intel Bluetooth / Wifi
 
 ## Credits:
 
